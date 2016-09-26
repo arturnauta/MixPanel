@@ -1,0 +1,247 @@
+@import 'https://fonts.googleapis.com/css?family=Exo|Hammersmith+One|Hind+Madurai';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #737c93;
+  font-family: 'Exo', sans-serif;
+  font-size: 42px;
+  font-weight: 100;
+  margin: 0;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  color: #737c93;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 16px;
+}
+
+[data-style="width-content"] {
+  width: 1066px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+header {
+  margin-top: 20px;
+}
+
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 80px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Hammersmith One', sans-serif;
+  color: #b1bad0;
+  font-size: 12px;
+}
+
+nav ul li a:hover {
+  color: #9aa2b5;
+}
+
+.what-we-do {
+  background: url("../image/halo.png") no-repeat center bottom;
+  padding: 20px 0 0;
+}
+
+[data-style="dude"] {
+  margin: 0 auto;
+  width: 260px;
+}
+
+[data-style="lines-circles-left"] {
+  position: absolute;
+  width: 444px;
+  height: 278px;
+  bottom: 80px;
+  left: 50px;
+}
+
+[data-style="lines-circles-right"] {
+  position: absolute;
+  width: 429px;
+  height: 313px;
+  bottom: 80px;
+  right: 60px;
+}
+
+[data-style="dude"] img {
+  margin: 300px 0 -5px 0;
+}
+
+.what-we-do h1,
+.what-we-do p {
+  text-align: center;
+}
+
+.what-we-do h1 {
+  margin-top: 40px;
+}
+
+.clients {
+  background-image: url("../image/blue_bg_light.png");
+  padding: 60px 0;
+}
+
+.clients h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.clients ul {
+  text-align: center;
+  padding: 0;
+}
+
+.clients ul li {
+  display: inline-block;
+  width: 333px;
+  height: 280px;
+  background: url("../image/color_bars.png");
+  background-repeat: repeat-x;
+  margin: 0 10px 10px 0;
+  box-shadow: inset 0 1px rgba(255,255,255,0.2),0 1px 2px #7082a3;
+}
+
+.clients ul li:nth-child(3n+3) {
+  margin-right: : 0;
+}
+
+.clients ul li:nth-child(1) {
+    background-position: 0 -280px;
+}
+
+.clients ul li:nth-child(3) {
+    background-position: 0 -840px;
+}
+
+.clients ul li:nth-child(5) {
+    background-position: 0 -560px;
+}
+/* IMAGENES DE EMPRESAS EN RETICULA */
+[data-style="company-one"] {
+  margin: 90px auto;
+  background-image: url("../image/logos1.png");
+  width: 264px;
+  height: 100px;
+}
+[data-style="company-two"] {
+  margin: 90px auto;
+  background-image: url("../image/logos1.png");
+  width: 264px;
+  height: 100px;
+  background-position: 0 -100px;
+}
+[data-style="company-three"] {
+  margin: 90px auto;
+  background-image: url("../image/logos1.png");
+  width: 264px;
+  height: 100px;
+  background-position: 0 -200px;
+}
+[data-style="company-four"] {
+  margin: 90px auto;
+  background-image: url("../image/logos1.png");
+  width: 264px;
+  height: 100px;
+  background-position: 0 -300px;
+}
+[data-style="company-five"] {
+  margin: 90px auto;
+  background-image: url("../image/logos1.png");
+  width: 264px;
+  height: 100px;
+  background-position: 0 -400px;
+}
+[data-style="company-six"] {
+  margin: 90px auto;
+  background-image: url("../image/logos1.png");
+  width: 264px;
+  height: 100px;
+  background-position: 0 -497px;
+}
+
+/* ESTILO PARA SECCION DESCRIPTIVA DEL BIO DE LOS EXPERTOS */
+.we-are-experts {
+  background-image: url("../image/blue_bg_lighter.png");
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding: 60px 0;
+}
+
+.we-are-experts h2,
+.we-are-experts p {
+  text-align: center;
+  color: white;
+}
+
+.testimonials {
+  background: #f3f6ff;
+  padding: 0 0 60px;
+}
+
+[data-style="bg-image"] {
+  margin: 0 auto;
+  background-image: url("../image/misc_sprites.png");
+  width: 416px;
+  height: 155px;
+  background-repeat: no-repeat;
+  background-position: center -180px;
+}
+
+.testimonials h2 {
+  text-align: center;
+}
+
+footer {
+  padding: 35px 0;
+}
+footer ul {
+  padding: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 35px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Hammersmith One', sans-serif;
+  color: #b1bad0;
+  font-size: 12px;
+}
+
+footer ul li a:hover {
+  color: #9aa2b5;
+}
